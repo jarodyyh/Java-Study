@@ -2,8 +2,13 @@ https://stackoverflow.com/questions/16116952/can-multithreading-be-implemented-o
 
 
 Yes you can do multithreading on a single processor system.
-In multi-processor system , multiple threads execute , simultaneously on different cores. Eg- If there are two threads and two cores , then each thread would run on individual core.
-In a single-processor system, multiple threads execute , one after the other or wait until one thread finishes or is preempted by the OS , depending on the thread priority and the OS policy.But the running threads , gives an illusion that they run simultaneous , relative to the required application response time of the User space application.
+In multi-processor system , multiple threads execute , simultaneously on different cores. 
+Eg- If there are two threads and two cores , then each thread would run on individual core.
+In a single-processor system, multiple threads execute , 
+one after the other or wait until one thread finishes or is preempted by the OS , 
+depending on the thread priority and the OS policy.But the running threads , 
+gives an illusion that they run simultaneous , 
+relative to the required application response time of the User space application.
 
 Time Comparison(Example):
 if two threads take 10us each to execute, then on a 2 processor system , the net time take is 10us
