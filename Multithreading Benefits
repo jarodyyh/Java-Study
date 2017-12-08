@@ -11,4 +11,18 @@ Some of these benefits are:
 
 2. Simpler program design in some situations.
 
+          
 3. More responsive programs.
+
+    No Multithreading (listener can only restart after process done):
+          while(server is active){
+              listen for request
+              process request
+          }
+          
+    With Multithreading (listener can restart immediately after send request to worker thread):
+          while(server is active){
+              listen for request
+              hand request to worker thread
+          }
+          
