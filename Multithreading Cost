@@ -1,0 +1,19 @@
+http://tutorials.jenkov.com/java-concurrency/costs.html
+
+Going from a singlethreaded to a multithreaded application doesn't just provide benefits. It also has some costs.
+You should have a good idea that the benefits gained by doing so, are larger than the costs.
+
+1. More complex design
+
+
+2. Context Switching Overhead
+    Switching the CPU to another process requires:
+    a. saving the state of the old process
+    b. loading the saved state for the new process.
+
+3. Increased Resource Consumption
+    A thread needs some resources from the computer in order to run. 
+    Besides CPU time a thread needs some memory to keep its local stack. 
+    It may also take up some resources inside the operating system needed to manage the thread. 
+    Try creating a program that creates 100 threads that does nothing but wait, 
+    and see how much memory the application takes when running.
