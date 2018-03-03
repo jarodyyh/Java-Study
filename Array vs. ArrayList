@@ -1,0 +1,8 @@
+Array: fixed size 
+ArrayList: dynamic size array implements List interface
+
+
+Array: primitive type or objects
+ArrayList: ONLY objects
+
+
