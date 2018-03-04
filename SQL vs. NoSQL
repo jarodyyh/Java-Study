@@ -1,0 +1,29 @@
+SQL: Relational Database
+NoSQL(Not only SQL): Non-relational / Distributed Database
+
+
+SQL: table based
+NoSQL: document based, key-value pairs, graph databases or wide-column stores
+
+
+SQL: predefined schema
+NoSQL: dynamic schema for unstructured data
+
+
+SQL: vertically scalable, scaled by increasing CPU, RAM, SSD, etc, on a single server
+NoSQL: horizontally scalable, scaled by increasing the databases servers in the pool of resources to reduce the load
+
+SQL:uses SQL ( structured query language ) for defining and manipulating the data
+NoSQL: uses UnQL (Unstructured Query Language), which varies from database to database
+
+
+SQL database examples: MySql, Oracle, Sqlite, Postgres and MS-SQL
+NoSQL database examples: MongoDB, BigTable, Redis, RavenDb, Cassandra, Hbase, Neo4j and CouchDb
+
+
+SQL: SQL databases are not best fit for hierarchical data storage
+NoSQL: NoSQL database are highly preferred for large data set (i.e for big data). Hbase is an example for this purpose.
+
+
+SQL: SQL databases emphasizes on ACID properties ( Atomicity, Consistency, Isolation and Durability) 
+NoSQL: NoSQL database follows the Brewers CAP theorem ( Consistency, Availability and Partition tolerance )
